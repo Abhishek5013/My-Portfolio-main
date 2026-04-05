@@ -584,6 +584,16 @@ const projects = [
         tags: [
             "Python"
         ]
+    },
+    {
+        title: " QR Code Generator",
+        description: "I developed a QR Code Generator using Python that allows users to convert text, URLs, or other data into scannable QR codes. The project uses the qrcode and Pillow libraries to generate and save QR codes as image files.",
+        image: "/Screenshot 2025-08-21 204131.png",
+        imageAiHint: "mobile banking",
+        link: "https://github.com/Abhishek5013/Python",
+        tags: [
+            "Python"
+        ]
     }
 ];
 const skills = [

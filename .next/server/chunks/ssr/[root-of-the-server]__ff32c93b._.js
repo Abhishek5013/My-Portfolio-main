@@ -524,6 +524,16 @@ const projects = [
         tags: [
             "Python"
         ]
+    },
+    {
+        title: " QR Code Generator",
+        description: "I developed a QR Code Generator using Python that allows users to convert text, URLs, or other data into scannable QR codes. The project uses the qrcode and Pillow libraries to generate and save QR codes as image files.",
+        image: "/Screenshot 2025-08-21 204131.png",
+        imageAiHint: "mobile banking",
+        link: "https://github.com/Abhishek5013/Python",
+        tags: [
+            "Python"
+        ]
     }
 ];
 const skills = [
@@ -669,7 +679,7 @@ function Projects() {
                         children: "My Work"
                     }, void 0, false, {
                         fileName: "[project]/src/components/sections/projects.tsx",
-                        lineNumber: 14,
+                        lineNumber: 13,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -677,13 +687,13 @@ function Projects() {
                         children: "A selection of projects that showcase my passion for design and development."
                     }, void 0, false, {
                         fileName: "[project]/src/components/sections/projects.tsx",
-                        lineNumber: 15,
+                        lineNumber: 14,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/sections/projects.tsx",
-                lineNumber: 13,
+                lineNumber: 12,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -695,7 +705,18 @@ function Projects() {
                                 className: "p-0",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "overflow-hidden",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                    children: project.embedUrl ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
+                                        src: project.embedUrl,
+                                        title: project.title,
+                                        className: "w-full h-64 rounded-xl",
+                                        allow: "autoplay; fullscreen; xr-spatial-tracking",
+                                        allowFullScreen: true,
+                                        loading: "lazy"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/sections/projects.tsx",
+                                        lineNumber: 28,
+                                        columnNumber: 19
+                                    }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                         src: project.image,
                                         "data-ai-hint": project.imageAiHint,
                                         alt: project.title,
@@ -704,18 +725,18 @@ function Projects() {
                                         className: "object-cover w-full h-64 transition-transform duration-500 group-hover:scale-110"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/sections/projects.tsx",
-                                        lineNumber: 24,
-                                        columnNumber: 21
+                                        lineNumber: 37,
+                                        columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/projects.tsx",
-                                    lineNumber: 23,
-                                    columnNumber: 17
+                                    lineNumber: 24,
+                                    columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/sections/projects.tsx",
-                                lineNumber: 22,
-                                columnNumber: 14
+                                lineNumber: 23,
+                                columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardContent"], {
                                 className: "p-8",
@@ -725,16 +746,16 @@ function Projects() {
                                         children: project.title
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/sections/projects.tsx",
-                                        lineNumber: 35,
-                                        columnNumber: 17
+                                        lineNumber: 51,
+                                        columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "mt-2 text-muted-foreground",
                                         children: project.description
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/sections/projects.tsx",
-                                        lineNumber: 36,
-                                        columnNumber: 17
+                                        lineNumber: 52,
+                                        columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "mt-4 flex flex-wrap gap-2",
@@ -743,18 +764,18 @@ function Projects() {
                                                 children: tag
                                             }, tag, false, {
                                                 fileName: "[project]/src/components/sections/projects.tsx",
-                                                lineNumber: 39,
-                                                columnNumber: 25
+                                                lineNumber: 56,
+                                                columnNumber: 19
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/sections/projects.tsx",
-                                        lineNumber: 37,
-                                        columnNumber: 17
+                                        lineNumber: 54,
+                                        columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/sections/projects.tsx",
-                                lineNumber: 34,
+                                lineNumber: 50,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardFooter"], {
@@ -771,23 +792,23 @@ function Projects() {
                                                 className: "ml-2 h-4 w-4"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/sections/projects.tsx",
-                                                lineNumber: 47,
-                                                columnNumber: 25
+                                                lineNumber: 65,
+                                                columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/sections/projects.tsx",
-                                        lineNumber: 45,
-                                        columnNumber: 21
+                                        lineNumber: 63,
+                                        columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/projects.tsx",
-                                    lineNumber: 44,
-                                    columnNumber: 18
+                                    lineNumber: 62,
+                                    columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/sections/projects.tsx",
-                                lineNumber: 43,
+                                lineNumber: 61,
                                 columnNumber: 13
                             }, this)
                         ]
@@ -804,7 +825,7 @@ function Projects() {
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/sections/projects.tsx",
-        lineNumber: 12,
+        lineNumber: 11,
         columnNumber: 5
     }, this);
 }
