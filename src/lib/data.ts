@@ -27,12 +27,12 @@ export const projects = [
     tags: ["Blender 3D"],
   },
   {
-    title: "Portfolio",
-    description: "I created a modern portfolio website to showcase my skills and projects. The site is built using:TypeScript → for type-safe and reliable code.React (with Vite) → for fast, component-based development and optimized build performance.Tailwind CSS → for responsive, utility-first styling and a clean, modern UI.",
+    title: "iPhone 16 Pro Max – 3D Product Visualization (Blender)",
+    description: "I created a highly detailed 3D model of the iPhone 16 Pro Max using Blender, focusing on precision, realism, and modern product presentation standards. The model captures the sleek design language of contemporary smartphones, including refined edges, accurate proportions, and premium material finishes.",
     image: "/port1.png",
     imageAiHint: "data dashboard",
-    link: "https://github.com/Abhishek5013/IOS-PORTFOLIO.git",
-    tags: ["TypeScript", "React","Vtie" , "Tailwind CSS"],
+    link: "https://skfb.ly/pIq6s",
+    tags: ["Blender 3D"],
   },
     {
     title: " QR Code Generator",
